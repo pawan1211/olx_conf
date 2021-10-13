@@ -1,0 +1,14 @@
+datasource:
+    url:  jdbc:mysql://localhost:3306/olx_users
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    jpa:
+    hibernate:
+      ddl-auto: update
+ 
+    generate-ddl: false
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
